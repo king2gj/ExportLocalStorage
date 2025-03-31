@@ -1,0 +1,24 @@
+{
+    "author": "PLACEHOLDER",
+    "background": {
+      "scripts": ["background.js"]
+    },
+    "browser_action": {
+      "default_area": "navbar",
+      "default_popup": "popup.html"
+    },
+    "content_scripts": [
+      {
+        "js": ["content.js"],
+        "matches": ["<all_urls>"]
+      }
+    ],
+    "icons": {
+      "128": "icon.png"
+    },
+    "description": "Exports LocalStorage data as a downloadable JSON file",
+    "manifest_version": 2,
+    "name": "Export LocalStorage",
+    "permissions": ["<all_urls>"],
+    "version": "1.0"
+  }
