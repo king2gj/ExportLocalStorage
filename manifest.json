@@ -1,5 +1,6 @@
 {
     "author": "Soramie",
+    "homepage_url": "https://github.com/king2gj/ExportLocalStorage",
     "background": {
       "scripts": ["background.js"]
     },
